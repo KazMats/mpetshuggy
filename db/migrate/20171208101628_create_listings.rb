@@ -5,7 +5,7 @@ class CreateListings < ActiveRecord::Migration[5.1]
       t.string :pet_type
       t.string :pet_size
       t.integer :breeding_years
-      t.string :adress
+      t.string :address
       t.string :listing_title
       t.text :listing_content
       t.integer :price_pernight
