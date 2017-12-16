@@ -92,7 +92,7 @@ Rails.application.configure do
   #remembaer to change localhost to actual host
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
-  # config/environments/production.rb
+
   config.paperclip_defaults = {
       storage: :s3,
       s3_protocol: :https,
